@@ -1,0 +1,19 @@
+$light: #ccc;
+$background: black;
+$gray-primary: rgba(0,0,0,.3);
+
+
+body {
+    background: $background;
+    color: $light;
+}
+
+#vertical-spacer {
+    height: 50px;
+}
+
+#container {
+    width: 768px;
+    margin: 0 auto;
+}
+

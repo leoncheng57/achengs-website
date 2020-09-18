@@ -1,0 +1,14 @@
+body {
+  background: black;
+  color: #ccc;
+}
+
+#vertical-spacer {
+  height: 50px;
+}
+
+#container {
+  width: 768px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
