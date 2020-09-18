@@ -45,7 +45,6 @@ body {
 }
 
 #container {
-    width: 1000px;
     margin: 0 auto;
 }
 
@@ -56,7 +55,18 @@ a {
 
 
 // Responsiveness
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 900px) {
+    #container {
+      width: 900px;
+    }
+    #navbar-list {
+        display: block;
+    }
+    #hamburger {
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
     #container {
       width: 760px;
     }
@@ -67,7 +77,6 @@ a {
         display: none;
     }
 }
-
 @media only screen and (max-width: 760px) {
     #container {
       width: 500px;
@@ -79,7 +88,6 @@ a {
         display: flex;
     }
 }
-
 @media only screen and (max-width: 500px) {
     #container {
       width: 300px;
