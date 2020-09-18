@@ -15,7 +15,7 @@
         </div>
         <div id="navbar"> 
             <div id="inner-navbar">
-                <div id="hamburger" onclick="handleHamburgerClick(this)">
+                <div id="hamburger" onclick="handleHamburgerClick()">
                     <div class="hamburger-icon">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
@@ -25,7 +25,7 @@
                         MENU
                     </span>
                 </div>
-                <ul>
+                <ul id="navbar-list">
                     <li><a href="#">activites</a></li>
                     <li><a href="#">classes</a></li>
                     <li><a href="#">projects</a></li>
@@ -71,8 +71,9 @@
     </div>
 
     <script>
-        function handleHamburgerClick(x) {
-          x.classList.toggle("change");
+        function handleHamburgerClick() {
+            document.getElementById("hamburger").classList.toggle("change");
+            document.getElementById("navbar-list").classList.toggle("dropdown");
         }
     </script>
 </body>
