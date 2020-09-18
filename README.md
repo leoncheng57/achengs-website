@@ -34,4 +34,6 @@ You can edit css/html files if absolutely necessary but if you ever edit in the 
 
 ## Advanced
 
-If you want to reorganize the structure, you can change the settings for where Pug files or Sass files are compiled into. Currently, Pug's compiled html files are left in the same folder as the source files. The same holds true for Sass files. `_base.pug` links to `style.css` through the line `link(rel="stylesheet" href="styles/style.css")`.
+If you want to reorganize the structure, you can change the settings for where Pug files or Sass files are compiled into. Currently, Pug's compiled html files are left in the same folder as the source files. The same holds true for Sass files. 
+
+`_base.pug` links to `style.css` through the line `link(rel="stylesheet" href="styles/style.css")`.
