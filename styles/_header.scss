@@ -1,0 +1,6 @@
+#header {
+    @include header-font();
+    text-align: center;
+    background: $gray-primary;
+    padding: 50px;
+}

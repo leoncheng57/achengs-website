@@ -42,16 +42,8 @@ body {
     margin: 0 auto;
 }
 
-#header {
-    @include header-font();
-    text-align: center;
-    background: $gray-primary;
-    padding: 30px;
-}
-
-#navbar {
-    background: $gray-secondary;
-}
+@import 'header';
+@import 'navbar';
 
 #pagetitle {
     background: $gray-primary;
