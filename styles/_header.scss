@@ -1,5 +1,6 @@
 #header {
     @include header-font();
+    font-size: 45px;
     text-align: center;
     background: $gray-primary;
     padding: 50px;
