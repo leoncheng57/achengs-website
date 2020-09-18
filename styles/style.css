@@ -240,6 +240,7 @@ a {
 
 #footer #profile-link:hover {
   color: green;
+  font-size: 12px;
 }
 
 #inner-footer {
