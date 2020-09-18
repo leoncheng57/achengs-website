@@ -9,6 +9,7 @@ https://leoncheng57.github.io/alchengs-website/
 
 # VSCode extensions used
 - **Live Pug Compiler** by jaheenafsarsyed https://marketplace.visualstudio.com/items?itemName=jaheenafsarsyed.live-pug-compiler
+    - note: Unclear how reliable this is. If html edits seem unresponsive, then stop and start the vscode extension again.
 - **Live Sass Compiler** by Ritwick Dey https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 
 
