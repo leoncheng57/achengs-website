@@ -1,3 +1,12 @@
 #footer {
     background: $dark;
+    @include body-font;
+    font-size: 11px;
+}
+
+#inner-footer {
+    padding: 20px 40px;
+    p {
+        padding: 5px 0px;
+    }
 }
