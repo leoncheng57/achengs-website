@@ -21,7 +21,7 @@ I heard about this and wanted to test my website-from-scratch making abilities. 
 - **Live Sass Compiler** by Ritwick Dey 
     - https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 
-# Editing (@Anthony)
+# Editing (@[Anthony](https://github.com/acheng98))
 
 ## Where you should edit
 Any .scss or .pug files. You can write css directly in scss or learn scss through a simple tutorial. For Pug, you can use a html2pug convertor or learn the simple syntax of Pug.
