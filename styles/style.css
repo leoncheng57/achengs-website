@@ -229,6 +229,14 @@ a {
   font-size: 11px;
 }
 
+#footer #profile-link {
+  color: #c6c6c6;
+}
+
+#footer #profile-link:hover {
+  color: green;
+}
+
 #inner-footer {
   display: -webkit-box;
   display: -ms-flexbox;

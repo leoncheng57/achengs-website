@@ -2,6 +2,13 @@
     background: $dark;
     @include body-font;
     font-size: 11px;
+
+    #profile-link {
+        color: $light;
+    }
+    #profile-link:hover {
+        color: green;
+    }
 }
 
 #inner-footer {
