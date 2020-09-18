@@ -80,6 +80,16 @@ body {
 
 #pagetitle {
   background: #161616;
+  font-family: Quicksand, "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  word-spacing: normal;
+  color: #c6c6c6;
+  text-transform: none;
+  font-size: 28px;
+  padding: 10px 40px;
 }
 
 #pagebody {

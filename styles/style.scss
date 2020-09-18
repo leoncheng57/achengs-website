@@ -22,7 +22,6 @@ $body-font: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
 }
 
 
-
 body {
     background: $background;
     color: $light;
@@ -43,15 +42,6 @@ body {
 
 @import 'header';
 @import 'navbar';
-
-#pagetitle {
-    background: $gray-primary;
-}
-
-#pagebody {
-    background: $gray-secondary;
-}
-
-#footer {
-    background: $dark;
-}
+@import 'pagetitle';
+@import 'pagebody';
+@import 'footer';

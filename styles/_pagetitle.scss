@@ -1,0 +1,8 @@
+#pagetitle {
+    background: $gray-primary;
+
+    @include header-font;
+    text-transform: none;
+    font-size: 28px;
+    padding: 10px 40px;
+}
