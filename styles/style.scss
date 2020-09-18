@@ -1,6 +1,8 @@
-$light: #ccc;
-$background: black;
-$gray-primary: rgba(0,0,0,.3);
+$light: rgb(198,198,198);
+$background: rgb(19,19,19);
+$gray-primary: rgb(22,22,22);
+$gray-secondary: rgb(32,32,32);
+$dark: black;
 
 
 body {
@@ -10,6 +12,7 @@ body {
 
 #vertical-spacer {
     height: 50px;
+    background: $dark;
 }
 
 #container {
@@ -17,3 +20,25 @@ body {
     margin: 0 auto;
 }
 
+#header {
+    font-size: 30px;
+    text-align: center;
+    background: $gray-primary;
+    padding: 30px;
+}
+
+#navbar {
+    background: $gray-secondary;
+}
+
+#pagetitle {
+    background: $gray-primary;
+}
+
+#pagebody {
+    background: $gray-secondary;
+}
+
+#footer {
+    background: $dark;
+}

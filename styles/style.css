@@ -1,14 +1,38 @@
 body {
-  background: black;
-  color: #ccc;
+  background: #131313;
+  color: #c6c6c6;
 }
 
 #vertical-spacer {
   height: 50px;
+  background: black;
 }
 
 #container {
   width: 768px;
   margin: 0 auto;
+}
+
+#header {
+  font-size: 30px;
+  text-align: center;
+  background: #161616;
+  padding: 30px;
+}
+
+#navbar {
+  background: #202020;
+}
+
+#pagetitle {
+  background: #161616;
+}
+
+#pagebody {
+  background: #202020;
+}
+
+#footer {
+  background: black;
 }
 /*# sourceMappingURL=style.css.map */
