@@ -1,3 +1,4 @@
+// Colors
 $light: rgb(198,198,198);
 $background: rgb(19,19,19);
 $gray-primary: rgb(22,22,22);
@@ -5,23 +6,44 @@ $gray-secondary: rgb(32,32,32);
 $dark: black;
 
 
-body {
-    background: $background;
+// Fonts
+$header-font: Quicksand,"Open Sans",Helvetica,Arial,Verdana,sans-serif;
+$body-font: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
+
+
+@mixin header-font {
+    font-family: $header-font;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: normal;
     color: $light;
 }
 
+
+
+body {
+    background: $background;
+    color: $light;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
 #vertical-spacer {
-    height: 50px;
+    height: 40px;
     background: $dark;
+    margin: 0px;
 }
 
 #container {
-    width: 768px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 #header {
-    font-size: 30px;
+    @include header-font();
     text-align: center;
     background: $gray-primary;
     padding: 30px;
