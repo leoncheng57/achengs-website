@@ -161,4 +161,22 @@ a {
 #footer-right a:hover {
   color: #4682B4;
 }
+
+@media only screen and (max-width: 950px) {
+  #container {
+    width: 760px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #container {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #container {
+    width: 300px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
