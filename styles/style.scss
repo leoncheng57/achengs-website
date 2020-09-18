@@ -7,12 +7,11 @@ $dark: black;
 
 
 // Fonts
-$header-font: Quicksand,"Open Sans",Helvetica,Arial,Verdana,sans-serif;
-$body-font: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
-
+$header-font-family: Quicksand,"Open Sans",Helvetica,Arial,Verdana,sans-serif;
+$body-font-family: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
 
 @mixin header-font {
-    font-family: $header-font;
+    font-family: $header-font-family;
     font-weight: 400;
     line-height: 130%;
     text-transform: uppercase;
@@ -20,6 +19,18 @@ $body-font: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
     word-spacing: normal;
     color: $light;
 }
+
+@mixin body-font {
+    font-family: $body-font-family;
+    font-size: 14px;
+    line-height: 145%;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 body {

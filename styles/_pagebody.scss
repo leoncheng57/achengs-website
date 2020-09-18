@@ -1,3 +1,16 @@
 #pagebody {
     background: $gray-secondary;
+    @include body-font;
+}
+
+#inner-pagebody {
+    padding: 20px 40px;
+    p {
+        padding: 5px 0px;
+    }
+
+    a {
+        color: #4682B4;
+        text-decoration: none;
+    }
 }

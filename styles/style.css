@@ -94,6 +94,25 @@ body {
 
 #pagebody {
   background: #202020;
+  font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin-bottom: 20px;
+}
+
+#inner-pagebody {
+  padding: 20px 40px;
+}
+
+#inner-pagebody p {
+  padding: 5px 0px;
+}
+
+#inner-pagebody a {
+  color: #4682B4;
+  text-decoration: none;
 }
 
 #footer {
