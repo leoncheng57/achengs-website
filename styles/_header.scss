@@ -4,4 +4,9 @@
     text-align: center;
     background: $gray-primary;
     padding: 50px;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
