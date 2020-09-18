@@ -15,7 +15,17 @@
         </div>
         <div id="navbar"> 
             <div id="inner-navbar">
-                <ul>
+                <div id="hamburger" onclick="handleHamburgerClick()">
+                    <div class="hamburger-icon">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <span>
+                        MENU
+                    </span>
+                </div>
+                <ul id="navbar-list">
                     <li><a href="#">activites</a></li>
                     <li><a href="#">classes</a></li>
                     <li><a href="#">projects</a></li>
@@ -59,5 +69,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function handleHamburgerClick() {
+            document.getElementById("hamburger").classList.toggle("change");
+            document.getElementById("navbar-list").classList.toggle("dropdown");
+        }
+    </script>
 </body>
 </html>

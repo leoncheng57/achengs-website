@@ -4,13 +4,14 @@
 }
 
 #inner-navbar {
+    transition: all .5s;
     text-align: center;
     ul {
         margin: 0px;
+        padding: 0px;
         list-style: none;
         li {
             display: inline-block;
-            transition: all .5s;
             a {
                 @include header-font;
                 cursor: pointer;
@@ -31,5 +32,51 @@
     ul li:hover {
         border-bottom-color: #4682B4;
     }
+    .dropdown {
+        display: block;
+    }
 }
 
+
+
+#hamburger {
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    cursor: pointer;
+
+    span {
+        @include body-font;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+    span:hover {
+        text-decoration: underline;
+    }
+}
+
+.hamburger-icon {
+    display: inline-block;
+    padding: 0 10px;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: $light;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.change {
+    .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 1px);
+        transform: rotate(-45deg) translate(-9px, 1px);
+    }
+    .bar2 {
+        opacity: 0;
+    }
+    .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -5px);
+        transform: rotate(45deg) translate(-8px, -5px);
+    }
+}
+  

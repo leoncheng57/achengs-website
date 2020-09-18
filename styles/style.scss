@@ -30,9 +30,7 @@ $body-font-family: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
 }
 
 
-
-
-
+// General CSS
 body {
     background: $background;
     color: $light;
@@ -47,7 +45,6 @@ body {
 }
 
 #container {
-    width: 1000px;
     margin: 0 auto;
 }
 
@@ -56,26 +53,53 @@ a {
     text-decoration: none;
 }
 
+
+// Responsiveness
+@media only screen and (min-width: 900px) {
+    #container {
+      width: 900px;
+    }
+    #navbar-list {
+        display: block;
+    }
+    #hamburger {
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #container {
+      width: 760px;
+    }
+    #navbar-list {
+        display: block;
+    }
+    #hamburger {
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px) {
+    #container {
+      width: 500px;
+    }
+    #navbar-list {
+        display: none;
+    }
+    #hamburger {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #container {
+      width: 300px;
+    }
+}
+
+
+
+// imports
 @import 'header';
 @import 'navbar';
 @import 'pagetitle';
 @import 'pagebody';
 @import 'footer';
 
-@media only screen and (max-width: 950px) {
-    #container {
-      width: 760px;
-    }
-}
-
-@media only screen and (max-width: 760px) {
-    #container {
-      width: 500px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #container {
-      width: 300px;
-    }
-}
