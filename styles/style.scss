@@ -30,9 +30,7 @@ $body-font-family: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
 }
 
 
-
-
-
+// General CSS
 body {
     background: $background;
     color: $light;
@@ -62,6 +60,8 @@ a {
 @import 'pagebody';
 @import 'footer';
 
+
+// Responsiveness
 @media only screen and (max-width: 950px) {
     #container {
       width: 760px;
