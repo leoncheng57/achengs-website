@@ -5,8 +5,30 @@
 }
 
 #inner-footer {
+    display: flex;
+    justify-content: space-between;
     padding: 20px 40px;
     p {
         padding: 5px 0px;
+    }
+}
+
+#footer-left {
+    max-width: 400px;
+}
+
+#footer-right {
+    ul {
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+    a {
+        color: $light;
+    }
+    a:hover {
+        color: $hyperlink;
     }
 }

@@ -4,7 +4,7 @@ $background: rgb(19,19,19);
 $gray-primary: rgb(22,22,22);
 $gray-secondary: rgb(32,32,32);
 $dark: black;
-
+$hyperlink: #4682B4;
 
 // Fonts
 $header-font-family: Quicksand,"Open Sans",Helvetica,Arial,Verdana,sans-serif;
@@ -52,7 +52,7 @@ body {
 }
 
 a {
-    color: #4682B4;
+    color: $hyperlink;
     text-decoration: none;
 }
 
