@@ -1,6 +1,6 @@
 # alchengs-website
 
-View at https://leoncheng57.github.io/alchengs-website/
+View at https://leoncheng57.github.io/achengs-website/
 
 # Purpose
 
